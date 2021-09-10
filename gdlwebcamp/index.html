@@ -1,0 +1,413 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <meta name="theme-color" content="#fafafa">
+
+
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="hero">
+            <div class="contenido-header">
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+
+                <div class="informacion-evento">
+
+                    <div class="clearfix">
+                        <p class="fecha"><i class="fas fa-calendar-alt"></i>28-30 Julio</p>
+                        <p class="ciudad"><i class="fas fa-map-marker-alt"></i>Catamarca, ARG</p>
+                    </div>
+
+                    <!--Informacion Evento-->
+                    <h1 class="nombre-sitio">gdlwebcamp</h1>
+                    <p class="slogan">La mejor Conferencia de <span>Diseño Web</span></p>
+                </div>
+            </div>
+        </div>
+        <!--hero-->
+    </header>
+
+    <div class="barra">
+        <div class="contenedor clearfix">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo gdlwebcamp">
+            </div>
+            <div class="menu-movil">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="navegacion-principal clearfix">
+                <a href="#">Conferencia</a>
+                <a href="#">Calendario</a>
+                <a href="#">Invitados</a>
+                <a href="./registro.html">Reservaciones</a>
+            </nav>
+        </div>
+        <!--contenedor-->
+    </div>
+    <!--Barra-->
+
+    <section class="seccion contenedor">
+        <h2>La Mejor Conferencia de Diseño Web en Español</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum temporibus unde sint facilis, quae modi assumenda laborum nisi enim repellat, fuga, dolores voluptates sequi doloremque quisquam ullam ea consequuntur. Doloribus.</p>
+    </section>
+    <!--Seccion-->
+
+    <section class="programa">
+        <div class="contenedor-video">
+            <video autoplay loop poster="bg-talleres.jpg">
+                <source src="video/video.mp4" type="video/mp4">
+                <source src="video/video.webm" type="video/webm">
+                <source src="video/video.ogv" type="video/ogv">
+
+            </video>
+        </div>
+        <!--contenedor-video-->
+
+        <div class="contenido-programa">
+            <div class="contenedor">
+                <div class="programa-evento">
+                    <h2>Programa del Evento</h2>
+                    <nav class="menu-programa">
+                        <a href="talleres"><i class="fa fa-code"></i>Talleres</a>
+                        <a href="conferencias"><i class="fa fa-comment"></i>Conferencias</a>
+                        <a href="seminarios"><i class="fa fa-university"></i>Seminarios</a>
+                    </nav>
+
+                    <div id="talleres" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>HTML5, CSS3 Y JS</h3>
+                            <p><i class="fa fa-clock"></i>16:00hs</p>
+                            <p><i class="fa fa-calendar"></i>28 de Julio</p>
+                            <p><i class="fa fa-user"></i>César Alejandro Ramos</p>
+                        </div>
+
+                        <div class="detalle-evento">
+                            <h3>Responsive Web Design</h3>
+                            <p><i class="fa fa-clock"></i>20:00hs</p>
+                            <p><i class="fa fa-calendar"></i>28 de Julio</p>
+                            <p><i class="fa fa-user"></i>César Alejandro Ramos</p>
+                        </div>
+
+                        <a href="#" class="button float-right">Ver Todos</a>
+                    </div>
+                    <!--Talleres-->
+                    <div id="conferencias" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>Como ser Freelancer</h3>
+                            <p><i class="fa fa-clock"></i>10:00hs</p>
+                            <p><i class="fa fa-calendar"></i>28 de Julio</p>
+                            <p><i class="fa fa-user"></i>Julio César Ramos</p>
+                        </div>
+
+                        <div class="detalle-evento">
+                            <h3>Tecnologias del Futuro</h3>
+                            <p><i class="fa fa-clock"></i>17:00hs</p>
+                            <p><i class="fa fa-calendar"></i>28 de Julio</p>
+                            <p><i class="fa fa-user"></i>Noemi Del Valle Seco</p>
+                        </div>
+
+                        <a href="#" class="button float-right">Ver Todos</a>
+                    </div>
+                    <!--Conferencias-->
+
+
+                    <div id="seminarios" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>Diseño UI/UX para móbiles</h3>
+                            <p><i class="fa fa-clock"></i>11:00hs</p>
+                            <p><i class="fa fa-calendar"></i>29 de Julio</p>
+                            <p><i class="fa fa-user"></i>Harold Garcia</p>
+                        </div>
+
+                        <div class="detalle-evento">
+                            <h3>Aprende a Programar en una mañana</h3>
+                            <p><i class="fa fa-clock"></i>10:00hs</p>
+                            <p><i class="fa fa-calendar"></i>29 de Julio</p>
+                            <p><i class="fa fa-user"></i>Susana Rivera</p>
+                        </div>
+
+                        <a href="#" class="button float-right">Ver Todos</a>
+                    </div>
+                    <!--Seminarios-->
+                </div>
+                <!--eventos-->
+            </div>
+            <!--contenedor-->
+        </div>
+        <!--contenido-programa-->
+    </section>
+    <!--programa-->
+
+    <section class="invitados contenedor seccion">
+        <h2>Nuestros Invitados</h2>
+
+        <ul class="lista-invitados clearfix">
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado1.jpg" alt="imagen-invitado">
+                    <p>Rafael Bautista</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado2.jpg" alt="imagen-invitado">
+                    <p>Shari Herrera</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado3.jpg" alt="imagen-invitado">
+                    <p>Gregorio Sanchez</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado4.jpg" alt="imagen-invitado">
+                    <p>Susana Rivera</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado5.jpg" alt="imagen-invitado">
+                    <p>Harold García</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado6.jpg" alt="imagen-invitado">
+                    <p>Susan Sanchez</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--Invitadpos-->
+
+    <div class="contador parallax">
+        <div class="contador">
+            <ul class="resumen-evento clearfix">
+                <li>
+                    <p class="numero">6</p>Invitados</li>
+                <li>
+                    <p class="numero">15</p>Talleres</li>
+                <li>
+                    <p class="numero">3</p>Dias</li>
+                <li>
+                    <p class="numero">9</p>Conferencias</li>
+            </ul>
+        </div>
+    </div>
+    <!--numeros-->
+
+    <section class="precios seccion">
+        <h2>Precios</h2>
+        <div class="contenedor">
+            <ul class="lista-precios clearfix">
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Pase por Día</h3>
+                        <p class="numero">$30</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
+                            <li><i class="fas fa-check"></i>Todas las Conferencias</li>
+                            <li><i class="fas fa-check"></i>Todos los Talleres</li>
+                        </ul>
+                        <a href="#" class="button hollow">Comprar</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Todos los Días</h3>
+                        <p class="numero">$50</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
+                            <li><i class="fas fa-check"></i>Todas las Conferencias</li>
+                            <li><i class="fas fa-check"></i>Todos los Talleres</li>
+                        </ul>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Pase por 2 Días</h3>
+                        <p class="numero">$45</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
+                            <li><i class="fas fa-check"></i>Todas las Conferencias</li>
+                            <li><i class="fas fa-check"></i>Todos los Talleres</li>
+                        </ul>
+                        <a href="#" class="button hollow">Comprar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="mapa" class="mapa">
+
+    </div>
+
+
+    <section class="seccion">
+        <h2>Testimoniales</h2>
+        <div class="testimoniales contenedor clearfix">
+            <div class="testimonial">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus neque hic ut blanditiis ad in, pariatur laboriosam numquam magni quisquam dicta fugiat! Accusamus, eum fuga velit doloribus recusandae a ratione!</p>
+                    <footer class="info-testimonial clearfix">
+                        <img src="img/testimonial.jpg" alt="imagen testimonial">
+                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                    </footer>
+                </blockquote>
+            </div>
+            <!--Fin Testimonial-->
+
+            <div class="testimonial">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus neque hic ut blanditiis ad in, pariatur laboriosam numquam magni quisquam dicta fugiat! Accusamus, eum fuga velit doloribus recusandae a ratione!</p>
+                    <footer class="info-testimonial clearfix">
+                        <img src="img/testimonial.jpg" alt="imagen testimonial">
+                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                    </footer>
+                </blockquote>
+            </div>
+            <!--Fin Testimonial-->
+
+            <div class="testimonial">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus neque hic ut blanditiis ad in, pariatur laboriosam numquam magni quisquam dicta fugiat! Accusamus, eum fuga velit doloribus recusandae a ratione!</p>
+                    <footer class="info-testimonial clearfix">
+                        <img src="img/testimonial.jpg" alt="imagen testimonial">
+                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                    </footer>
+                </blockquote>
+            </div>
+            <!--Fin Testimonial-->
+        </div>
+    </section>
+
+    <div class="newsletter parallax">
+        <div class="contenido contenedor">
+            <p>Regístrate al Newsletter:</p>
+            <h3>gdlwebcamp</h3>
+            <a href="#" class="button transparente">Registro</a>
+        </div>
+        <!--contenido-->
+    </div>
+    <!--newsletter-->
+
+
+    <section class="seccion ">
+        <h2>Faltan</h2>
+        <div class="cuenta-regresiva contenedor">
+            <ul class="clearfix">
+                <li>
+                    <p class="numero">80</p>Días</li>
+                <li>
+                    <p class="numero">15</p>Horas</li>
+                <li>
+                    <p class="numero">5</p>Minutos</li>
+                <li>
+                    <p class="numero">30</p>Segundos</li>
+
+
+            </ul>
+        </div>
+    </section>
+    <!--contador-->
+
+
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="footer-informacion">
+                <h3>Sobre <span>gdlwebcamp</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iste aspernatur a culpa ab optio voluptatem neque est ea ut quisquam, odio aliquid dignissimos repellendus praesentium? Id quae alias vitae!</p>
+            </div>
+
+            <div class="ultimos-tweets">
+                <h3>Ultimos <span>Tweets</span></h3>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </li>
+                </ul>
+            </div>
+
+            <div class="menu">
+                <h3>Redes <span>Sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div>
+        </div>
+        <p class="copyright">Todos los Deerechos Reservados GDLWEBCAMP 2021</p>
+    </footer>
+
+
+</body>
+
+
+<script src="js/vendor/modernizr-3.11.2.min.js "></script>
+<script src="js/jquery.js "></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="js/plugins.js "></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function() {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js " async></script>
+
+</html>
