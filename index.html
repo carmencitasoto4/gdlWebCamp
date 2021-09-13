@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/615b74d99c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
@@ -26,6 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <meta name="theme-color" content="#fafafa">
 
@@ -36,29 +37,31 @@
 
     <header class="site-header">
         <div class="hero">
+
             <div class="contenido-header">
                 <nav class="redes-sociales">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-pinterest-p"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+
                 </nav>
-
-                <div class="informacion-evento">
-
-                    <div class="clearfix">
-                        <p class="fecha"><i class="fas fa-calendar-alt"></i>28-30 Julio</p>
-                        <p class="ciudad"><i class="fas fa-map-marker-alt"></i>Catamarca, ARG</p>
+                <div class="texto-header">
+                    <div class="info-evento">
+                        <p class="fecha no-margin"> <i class="far fa-calendar-alt"></i>10-12 Diciembre</p>
+                        <p class="ciudad no-margin"> <i class="fas fa-map-marker-alt"></i>Catamarca, AR</p>
                     </div>
 
-                    <!--Informacion Evento-->
-                    <h1 class="nombre-sitio">gdlwebcamp</h1>
-                    <p class="slogan">La mejor Conferencia de <span>Diseño Web</span></p>
+                    <h1 class="nombre-sitio">GDLWebCamp</h1>
+                    <p class="slogan">La mejor conferencia de <span>Diseño Web</span></p>
+
                 </div>
             </div>
+
         </div>
-        <!--hero-->
+
+
     </header>
 
     <div class="barra">
@@ -73,7 +76,7 @@
             </div>
 
             <nav class="navegacion-principal clearfix">
-                <a href="#">Conferencia</a>
+                <a href="conferencias.html">Conferencia</a>
                 <a href="#">Calendario</a>
                 <a href="#">Invitados</a>
                 <a href="./registro.html">Reservaciones</a>
@@ -111,9 +114,9 @@
                 <div class="programa-evento">
                     <h2>Programa del Evento</h2>
                     <nav class="menu-programa">
-                        <a href="talleres"><i class="fa fa-code"></i>Talleres</a>
-                        <a href="conferencias"><i class="fa fa-comment"></i>Conferencias</a>
-                        <a href="seminarios"><i class="fa fa-university"></i>Seminarios</a>
+                        <a href="#talleres"><i class="fa fa-code"></i>Talleres</a>
+                        <a href="#conferencias"><i class="fa fa-comment"></i>Conferencias</a>
+                        <a href="#seminarios"><i class="fa fa-university"></i>Seminarios</a>
                     </nav>
 
                     <div id="talleres" class="info-curso ocultar clearfix">
@@ -121,14 +124,14 @@
                             <h3>HTML5, CSS3 Y JS</h3>
                             <p><i class="fa fa-clock"></i>16:00hs</p>
                             <p><i class="fa fa-calendar"></i>28 de Julio</p>
-                            <p><i class="fa fa-user"></i>César Alejandro Ramos</p>
+                            <p><i class="fa fa-user"></i>Carmen Soto</p>
                         </div>
 
                         <div class="detalle-evento">
                             <h3>Responsive Web Design</h3>
                             <p><i class="fa fa-clock"></i>20:00hs</p>
                             <p><i class="fa fa-calendar"></i>28 de Julio</p>
-                            <p><i class="fa fa-user"></i>César Alejandro Ramos</p>
+                            <p><i class="fa fa-user"></i>Carmen Soto</p>
                         </div>
 
                         <a href="#" class="button float-right">Ver Todos</a>
@@ -139,14 +142,14 @@
                             <h3>Como ser Freelancer</h3>
                             <p><i class="fa fa-clock"></i>10:00hs</p>
                             <p><i class="fa fa-calendar"></i>28 de Julio</p>
-                            <p><i class="fa fa-user"></i>Julio César Ramos</p>
+                            <p><i class="fa fa-user"></i>Carmen Soto</p>
                         </div>
 
                         <div class="detalle-evento">
                             <h3>Tecnologias del Futuro</h3>
                             <p><i class="fa fa-clock"></i>17:00hs</p>
                             <p><i class="fa fa-calendar"></i>28 de Julio</p>
-                            <p><i class="fa fa-user"></i>Noemi Del Valle Seco</p>
+                            <p><i class="fa fa-user"></i>Daniel Salvatierra</p>
                         </div>
 
                         <a href="#" class="button float-right">Ver Todos</a>
@@ -166,7 +169,7 @@
                             <h3>Aprende a Programar en una mañana</h3>
                             <p><i class="fa fa-clock"></i>10:00hs</p>
                             <p><i class="fa fa-calendar"></i>29 de Julio</p>
-                            <p><i class="fa fa-user"></i>Susana Rivera</p>
+                            <p><i class="fa fa-user"></i>Susan Sanchez</p>
                         </div>
 
                         <a href="#" class="button float-right">Ver Todos</a>
@@ -224,68 +227,69 @@
             </li>
         </ul>
     </section>
-    <!--Invitadpos-->
+    <!--Invitados-->
 
     <div class="contador parallax">
         <div class="contador">
             <ul class="resumen-evento clearfix">
                 <li>
-                    <p class="numero">6</p>Invitados</li>
+                    <p class="numero"></p>Invitados</li>
                 <li>
-                    <p class="numero">15</p>Talleres</li>
+                    <p class="numero"></p>Talleres</li>
                 <li>
-                    <p class="numero">3</p>Dias</li>
+                    <p class="numero"></p>Dias</li>
                 <li>
-                    <p class="numero">9</p>Conferencias</li>
+                    <p class="numero"></p>Conferencias</li>
             </ul>
         </div>
     </div>
     <!--numeros-->
 
-    <section class="precios seccion">
+    <section class="precios seccion ">
         <h2>Precios</h2>
-        <div class="contenedor">
-            <ul class="lista-precios clearfix">
-                <li>
-                    <div class="tabla-precio">
-                        <h3>Pase por Día</h3>
-                        <p class="numero">$30</p>
+        <div class="contenedor ">
+            <ul class="lista-precios ">
+                <li class="card-precios ">
+                    <div class="tabla-precio ">
+                        <h3>Pase por día (Viernes) </h3>
+                        <p class="numero "> $30</p>
                         <ul>
-                            <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
-                            <li><i class="fas fa-check"></i>Todas las Conferencias</li>
-                            <li><i class="fas fa-check"></i>Todos los Talleres</li>
+                            <li>Bocadillos gratis</li>
+                            <li>Todas las conferencias</li>
+                            <li>Todos los talleres</li>
                         </ul>
-                        <a href="#" class="button hollow">Comprar</a>
+                        <a href=" " class="button hollow ">Comprar</a>
+                    </div>
+                </li>
+                <li class="card-precios ">
+                    <div class="tabla-precio ">
+                        <h3>Todos los días</h3>
+                        <p class="numero "> $50</p>
+                        <ul>
+                            <li>Bocadillos gratis</li>
+                            <li>Todas las conferencias</li>
+                            <li>Todos los talleres</li>
+                        </ul>
+                        <a href=" " class="button hollow ">Comprar</a>
+                    </div>
+                </li>
+                <li class="card-precios ">
+                    <div class="tabla-precio ">
+                        <h3>Pase por 2 días (Viernes y Sábado)</h3>
+                        <p class="numero "> $40</p>
+                        <ul>
+                            <li>Bocadillos gratis</li>
+                            <li>Todas las conferencias</li>
+                            <li>Todos los talleres</li>
+                        </ul>
+                        <a href=" " class="button hollow ">Comprar</a>
                     </div>
                 </li>
 
-                <li>
-                    <div class="tabla-precio">
-                        <h3>Todos los Días</h3>
-                        <p class="numero">$50</p>
-                        <ul>
-                            <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
-                            <li><i class="fas fa-check"></i>Todas las Conferencias</li>
-                            <li><i class="fas fa-check"></i>Todos los Talleres</li>
-                        </ul>
-                        <a href="#" class="button">Comprar</a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="tabla-precio">
-                        <h3>Pase por 2 Días</h3>
-                        <p class="numero">$45</p>
-                        <ul>
-                            <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
-                            <li><i class="fas fa-check"></i>Todas las Conferencias</li>
-                            <li><i class="fas fa-check"></i>Todos los Talleres</li>
-                        </ul>
-                        <a href="#" class="button hollow">Comprar</a>
-                    </div>
-                </li>
             </ul>
+
         </div>
+
     </section>
 
     <div id="mapa" class="mapa">
@@ -293,42 +297,59 @@
     </div>
 
 
-    <section class="seccion">
+    <section class="seccion ">
         <h2>Testimoniales</h2>
-        <div class="testimoniales contenedor clearfix">
-            <div class="testimonial">
+        <div class="testimoniales contenedor ">
+            <div class="testimonial ">
                 <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus neque hic ut blanditiis ad in, pariatur laboriosam numquam magni quisquam dicta fugiat! Accusamus, eum fuga velit doloribus recusandae a ratione!</p>
-                    <footer class="info-testimonial clearfix">
-                        <img src="img/testimonial.jpg" alt="imagen testimonial">
-                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                    <div class="texto-blockquote ">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, debitis dignissimos. Quod quaerat mollitia minus, est pariatur quos explicabo eligendi!</p>
+                    </div>
+                    <footer>
+                        <div class="image-testimonial ">
+                            <img src="img/testimonial.jpg " alt=" ">
+                        </div>
+                        <div class="cite ">
+                            <cite>Osvaldo Aponte Escobedo <span>Diseñador en Prisma</span></cite>
+                        </div>
                     </footer>
                 </blockquote>
             </div>
-            <!--Fin Testimonial-->
 
-            <div class="testimonial">
+            <div class="testimonial ">
                 <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus neque hic ut blanditiis ad in, pariatur laboriosam numquam magni quisquam dicta fugiat! Accusamus, eum fuga velit doloribus recusandae a ratione!</p>
-                    <footer class="info-testimonial clearfix">
-                        <img src="img/testimonial.jpg" alt="imagen testimonial">
-                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                    <div class="texto-blockquote ">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, debitis dignissimos. Quod quaerat mollitia minus, est pariatur quos explicabo eligendi!</p>
+                    </div>
+                    <footer>
+                        <div class="image-testimonial ">
+                            <img src="img/testimonial.jpg " alt=" ">
+                        </div>
+                        <div class="cite ">
+                            <cite>Osvaldo Aponte Escobedo <span>Diseñador en Prisma</span></cite>
+                        </div>
                     </footer>
                 </blockquote>
             </div>
-            <!--Fin Testimonial-->
 
-            <div class="testimonial">
+            <div class="testimonial ">
                 <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus neque hic ut blanditiis ad in, pariatur laboriosam numquam magni quisquam dicta fugiat! Accusamus, eum fuga velit doloribus recusandae a ratione!</p>
-                    <footer class="info-testimonial clearfix">
-                        <img src="img/testimonial.jpg" alt="imagen testimonial">
-                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                    <div class="texto-blockquote ">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, debitis dignissimos. Quod quaerat mollitia minus, est pariatur quos explicabo eligendi!</p>
+                    </div>
+                    <footer>
+                        <div class="image-testimonial ">
+                            <img src="img/testimonial.jpg " alt=" ">
+                        </div>
+                        <div class="cite ">
+                            <cite>Osvaldo Aponte Escobedo <span>Diseñador en Prisma</span></cite>
+                        </div>
                     </footer>
                 </blockquote>
             </div>
-            <!--Fin Testimonial-->
+
         </div>
+
     </section>
 
     <div class="newsletter parallax">
@@ -347,14 +368,17 @@
         <div class="cuenta-regresiva contenedor">
             <ul class="clearfix">
                 <li>
-                    <p class="numero">80</p>Días</li>
+                    <p id="dias" class="numero "></p>dias
+                </li>
                 <li>
-                    <p class="numero">15</p>Horas</li>
+                    <p id="horas" class="numero "></p>horas
+                </li>
                 <li>
-                    <p class="numero">5</p>Minutos</li>
+                    <p id="minutos" class="numero "></p>minutos
+                </li>
                 <li>
-                    <p class="numero">30</p>Segundos</li>
-
+                    <p id="segundos" class="numero "></p>segundos
+                </li>
 
             </ul>
         </div>
@@ -399,6 +423,11 @@
 <script src="js/vendor/modernizr-3.11.2.min.js "></script>
 <script src="js/jquery.js "></script>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<script src="js/jquery.animateNumber.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.lettering.js"></script>
+<script src="js/lightbox.js"></script>
 <script src="js/mapa.js"></script>
 <script src="js/video.js"></script>
 <script src="js/plugins.js "></script>

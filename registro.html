@@ -17,8 +17,8 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.css"> v
+    <script src="https://kit.fontawesome.com/615b74d99c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
@@ -33,35 +33,39 @@
 
     <header class="site-header">
         <div class="hero">
+
             <div class="contenido-header">
                 <nav class="redes-sociales">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-pinterest-p"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+
                 </nav>
-
-                <div class="informacion-evento">
-
-                    <div class="clearfix">
-                        <p class="fecha"><i class="fas fa-calendar-alt"></i>28-30 Julio</p>
-                        <p class="ciudad"><i class="fas fa-map-marker-alt"></i>Catamarca, ARG</p>
+                <div class="texto-header">
+                    <div class="info-evento">
+                        <p class="fecha no-margin"> <i class="far fa-calendar-alt"></i>10-12 Diciembre</p>
+                        <p class="ciudad no-margin"> <i class="fas fa-map-marker-alt"></i>Catamarca, AR</p>
                     </div>
 
-                    <!--Informacion Evento-->
-                    <h1 class="nombre-sitio">gdlwebcamp</h1>
-                    <p class="slogan">La mejor Conferencia de <span>Diseño Web</span></p>
+                    <h1 class="nombre-sitio">GDLWebCamp</h1>
+                    <p class="slogan">La mejor conferencia de <span>Diseño Web</span></p>
+
                 </div>
             </div>
+
         </div>
-        <!--hero-->
+
+
     </header>
 
     <div class="barra">
         <div class="contenedor clearfix">
             <div class="logo">
-                <img src="img/logo.svg" alt="logo gdlwebcamp">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="logo gdlwebcamp">
+                </a>
             </div>
             <div class="menu-movil">
                 <span></span>
@@ -70,7 +74,7 @@
             </div>
 
             <nav class="navegacion-principal clearfix">
-                <a href="#">Conferencia</a>
+                <a href="conferencias.html">Conferencia</a>
                 <a href="#">Calendario</a>
                 <a href="#">Invitados</a>
                 <a href="./registro.html">Reservaciones</a>
@@ -106,60 +110,48 @@
             <div id="paquetes" class="paquetes">
                 <h3>Elige el número de Boletos</h3>
 
-                <ul class="lista-precios clearfix">
-                    <li>
-                        <div class="tabla-precio">
-                            <h3>Pase por Día (viernes)</h3>
-                            <p class="numero">$30</p>
-                            <ul>
-                                <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
-                                <li><i class="fas fa-check"></i>Todas las Conferencias</li>
-                                <li><i class="fas fa-check"></i>Todos los Talleres</li>
-                            </ul>
-
-                            <div class="orden">
-                                <label for="pase_dia">Boletos deseados:</label>
-                                <input type="number" min="0" id="pase_dia" size="3" placeholder="0">
+                <div class="contenedor ">
+                    <ul class="lista-precios ">
+                        <li class="card-precios ">
+                            <div class="tabla-precio ">
+                                <h3>Pase por día (Viernes)</h3>
+                                <p class="numero "> $30</p>
+                                <ul>
+                                    <li>Bocadillos gratis</li>
+                                    <li>Todas las conferencias</li>
+                                    <li>Todos los talleres</li>
+                                </ul>
+                                <a href=" " class="button hollow ">Comprar</a>
                             </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="tabla-precio">
-                            <h3>Todos los Días</h3>
-                            <p class="numero">$50</p>
-                            <ul>
-                                <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
-                                <li><i class="fas fa-check"></i>Todas las Conferencias</li>
-                                <li><i class="fas fa-check"></i>Todos los Talleres</li>
-                            </ul>
-
-                            <div class="orden">
-                                <label for="pase_completo">Boletos deseados:</label>
-                                <input type="number" min="0" id="pase_completo" size="3" placeholder="0">
+                        </li>
+                        <li class="card-precios ">
+                            <div class="tabla-precio ">
+                                <h3>Todos los días</h3>
+                                <p class="numero "> $50</p>
+                                <ul>
+                                    <li>Bocadillos gratis</li>
+                                    <li>Todas las conferencias</li>
+                                    <li>Todos los talleres</li>
+                                </ul>
+                                <a href=" " class="button hollow ">Comprar</a>
                             </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="tabla-precio">
-                            <h3>Pase por 2 Días (viernes y sábado)</h3>
-                            <p class="numero">$45</p>
-                            <ul>
-                                <li><i class="fas fa-check"></i>Bocadillos Gratis</li>
-                                <li><i class="fas fa-check"></i>Todas las Conferencias</li>
-                                <li><i class="fas fa-check"></i>Todos los Talleres</li>
-                            </ul>
-
-
-                            <div class="orden">
-                                <label for="pase_dosdias">Boletos deseados:</label>
-                                <input type="number" min="0" id="pase_dosdias" size="3" placeholder="0">
+                        </li>
+                        <li class="card-precios ">
+                            <div class="tabla-precio ">
+                                <h3>Pase por dos días (viernes y sábado)</h3>
+                                <p class="numero "> $40</p>
+                                <ul>
+                                    <li>Bocadillos gratis</li>
+                                    <li>Todas las conferencias</li>
+                                    <li>Todos los talleres</li>
+                                </ul>
+                                <a href=" " class="button hollow ">Comprar</a>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
             </div>
             <!--pauqtes-->
 
@@ -334,6 +326,7 @@
     <script src="js/vendor/modernizr-3.11.2.min.js "></script>
     <script src="js/jquery.js "></script>
     <script src="js/plugins.js "></script>
+    <script src="js/jquery.lettering.js"></script>
     <script src="js/main.js "></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
